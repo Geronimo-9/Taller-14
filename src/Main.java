@@ -6,6 +6,9 @@ import Personas.Estudiante;
 import Personas.Jugador;
 import Personas.Persona;
 import Personas.Profesor;
+import Vehiculos.Bicicleta;
+import Vehiculos.Carro;
+import Vehiculos.Vehiculo;
 
 
 public class Main {
@@ -37,7 +40,14 @@ public class Main {
         p1.presentarse();
 
 
+        //Ejercicio 4, Clase Carro y Bicicleta que heredan el metodo de la Clase padre Vehiculo.
 
+
+         Vehiculo Ford = new Carro();
+         Vehiculo Bmx = new Bicicleta();
+
+         Ford.mover();
+         Bmx.mover();
 
 
 
