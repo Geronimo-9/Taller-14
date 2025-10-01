@@ -3,6 +3,7 @@ import Figuras.Circulo;
 import Figuras.Figura;
 import Figuras.Rectangulo;
 import Personas.Estudiante;
+import Personas.Jugador;
 import Personas.Persona;
 import Personas.Profesor;
 
@@ -23,9 +24,20 @@ public class Main {
         Persona e1 = new Estudiante("Geronimo");
         Persona t1 = new Profesor("Jhon");
 
-        
+
         e1.presentarse();
         t1.presentarse();
+
+
+        //Ejercicio 3, mal uso de polimorfismo
+
+        Persona p1 = new Jugador("Keiner");
+
+        //p1.jugar();
+        p1.presentarse();
+
+
+
 
 
 
